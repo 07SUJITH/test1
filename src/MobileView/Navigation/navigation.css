@@ -1,0 +1,51 @@
+@media screen and (max-width: 991px) {
+  .mobile_navbar {
+    width: 100vw;
+    position: fixed;
+    height: 12vh;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    z-index: 100;
+    opacity: 1;
+  }
+}
+
+.about_button_mobile {
+  font-size: 5vmin;
+  font-family: "Playfair Display", serif;
+  padding: 1vmin 2vw;
+  margin-top: 10vh;
+  width: 40vw;
+  margin-left: 28vw;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  z-index: 100;
+  text-decoration: none !important;
+}
+
+.about_button_intro_mobile {
+  font-size: 5vmin;
+  font-family: "Playfair Display", serif;
+  padding: 1vmin 2vw;
+  margin-top: 20vh;
+  width: 40vw;
+  margin-left: 28vw;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  z-index: 100;
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  z-index: 100;
+}
+
+/* 
+.blog_container {
+    max-height: 100vh;
+    overflow-y: hidden;
+} */

@@ -1,0 +1,60 @@
+/* CONTAINER FOR THE ABOUT SLIDE (EXTENDED DOWNWARDS) */
+
+.about_container {
+  margin-top: 100vh;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll !important;
+  position: absolute;
+}
+
+/* THE CONTACT LINKS AND NAVIGATION TO GO BACK UP */
+
+.about_contact_links {
+  position: absolute;
+  left: 95vw;
+}
+
+/* THE CONTENT STYLING AND POSITIONING */
+
+.about_container .about_all_content {
+  width: 75vw;
+  margin: 0;
+  margin-top: 10vh;
+  margin-left: 22vw;
+  font-family: "Playfair Display", serif;
+}
+
+.about_heading {
+  font-family: "Playfair Display", serif;
+  font-size: 3vmin;
+}
+
+.about_title1 {
+  font-family: "Rozha One", serif;
+  font-size: 12vmin;
+  margin: 0;
+}
+
+.about_title2 {
+  font-family: "Rozha One", serif;
+  font-size: 12vmin;
+  margin: 0;
+  margin-top: 8vh;
+}
+
+.about_content {
+  width: 50vw;
+  font-size: 3.3vmin;
+  padding-left: 6vw;
+  margin-top: 10vh;
+  border-left: 2px solid white;
+}
+
+.scrollup_home {
+  position: absolute;
+  left: 95vw;
+  top: 8vh;
+  z-index: 90;
+}

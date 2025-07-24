@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./media/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-size: 4px;
+  scroll-behavior: smooth;
+  text-decoration: none !important;
+  overflow: hidden;
+}
+
+canvas {
+  outline: 0;
+}
+
+/* Make scollbars invisible but keep functionality */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  html,
+  body {
+    touch-action: none;
+    -ms-touch-action: none;
+    overflow: hidden;
+  }
+}
+
+/* @media screen and (max-width: 991px) and (orientation: landscape){
+  html, body{
+    display:none;
+  }
+} */
